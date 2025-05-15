@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM.html</title>
+	<style type="text/css">
+		  label
+    {
+     font-family: cursive;
+    }
+    #FORM input[type=text],[type=date],[type=time],[type=number]
+    {
+      width: 300px;
+      height: 25px;
+      border-radius: 7px;
+      border: 2px solid red;
+    }
+     #FORM input[type=button],[type=reset]
+     {
+      width: 150px;
+      height: 25px;
+      border-radius: 8px;
+      cursor: pointer;
+     }
+	</style>
+</head>
+<body>
+    
+    <section id="FORM"><BR><h2 aling="center"><b>APPOINTMENT FORM:</b></h2>
+
+    <label for="name">NAME</label> <br>
+    <input type="text" name="FULLNAME"><br><br>
+
+    <label for="number">NUMBER </label> <br>
+    <input type="number" name="no's"><br><br>
+
+    <label for="APPONTMENT">REASON FOR APPONTMENT</label> <br> 
+    Routing Maintainance(servicing)<input type="radio" name="APPONTMENT">
+    Repairing<input type="radio" name="APPONTMENT"> 
+    Washing<input type="radio" name="APPONTMENT">
+    Other purpose<input type="radio" name="APPONTMENT"><br><br>
+
+    <label for="pdate">PREFERED DATE </label> <br>
+     <input type="date" NAME="DATE" VALUE="DATE"><br><br>
+
+    <label for="ptime">PREFERRED TIME </label> <br>
+    <input type="time" name="time" value="time"><br><br><br>
+
+    <!-- <input type="SUBMIT" name="SUBMIT" VALUE="SUBMIT"> -->
+
+    <input type="button" value="BOOK APPOINTMENT">
+    <input type="RESET" value="RESET"> 
+
+  </section>
+
+</body>
+</html>
